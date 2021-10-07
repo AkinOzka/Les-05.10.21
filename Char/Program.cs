@@ -4,19 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitSample
+namespace Char
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            Console.WriteLine("hello from git");
+            char letter = 'A';
+            Console.WriteLine(letter);
+            Console.WriteLine(++letter);
+            Console.WriteLine(++letter);
+
+
 
             Console.ReadLine();
-
-
-
 
         }
     }
